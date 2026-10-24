@@ -1,4 +1,4 @@
-# imapsync-bulk
+# bulk-email-import
 
 Bulk mailbox migration with [imapsync](https://imapsync.lamiral.info/): read accounts from a CSV, sync each mailbox from a **source IMAP** host to a **destination IMAP** host.
 
@@ -17,13 +17,12 @@ brew install imapsync
 ## Quick start
 
 ```bash
-git clone <your-repo-url> imapsync-bulk
-cd imapsync-bulk
+git clone https://github.com/asifkhankadiwala/bulk-email-import.git
+cd bulk-email-import
 
 cp accounts.example.csv accounts.csv
 # Edit accounts.csv — one row per mailbox (real passwords stay local; file is gitignored)
 
-# Optional: override hosts (defaults are set in the script / env)
 export HOST1=old.mail.example.com     # source (old server)
 export HOST2=new.mail.example.com     # destination (new server)
 
