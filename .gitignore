@@ -1,0 +1,17 @@
+# Real credentials — never commit
+accounts.csv
+*.csv
+!accounts.example.csv
+
+# Local secrets / temp pass files
+pass*.txt
+pass*.current
+.env
+.env.*
+
+# Logs and runtime
+LOG_imapsync/
+*.log
+last-run.out
+tmp/
+.DS_Store

@@ -1,0 +1,3 @@
+email,password_old,password_new
+user@example.com,SOURCE_PASSWORD,DESTINATION_PASSWORD
+another@example.com,SOURCE_PASSWORD,DESTINATION_PASSWORD
